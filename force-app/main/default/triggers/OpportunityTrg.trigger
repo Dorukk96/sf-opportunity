@@ -5,5 +5,6 @@ trigger OpportunityTrg on Opportunity (after insert) {
     if (Trigger.isInsert && Trigger.isAfter) {
         OpportunityTriggerHandler.updateOppPriority(Trigger.new);
         // New things added here
+        // I'm adding new commets again here & I want to implement some logic after the comment here.
     }
 }
