@@ -9,5 +9,10 @@ trigger OpportunityTrg on Opportunity (after insert) {
         // I add new things again
         // I added new things one more time here.
         // That's it. Now!!
+        // 1
+        // 2
+        // 3
+        // 4
+        // 5
     }
 }
