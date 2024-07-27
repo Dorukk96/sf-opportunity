@@ -14,8 +14,6 @@ trigger OpportunityTrg on Opportunity (after insert) {
         // 8
         // This is a new line 9
         // This is a new line 10
-        // This is a new line 11
-        // This is a new line 12
-        // This new line is on branch replica
+        // This branch is replica branch
     }
 }
