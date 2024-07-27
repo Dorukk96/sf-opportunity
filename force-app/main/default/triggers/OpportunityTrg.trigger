@@ -5,9 +5,9 @@ trigger OpportunityTrg on Opportunity (after insert) {
     if (Trigger.isInsert && Trigger.isAfter) {
         OpportunityTriggerHandler.updateOppPriority(Trigger.new);
         // New things added here
-    }
-
-    if (Trigger.isUpdate && Trigger.isBefore) {
-        // Implement some logic here.
+        // I add new things
+        // I add new things again
+        // I added new things one more time here.
+        // That's it. Now!!
     }
 }
