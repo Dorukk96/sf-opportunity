@@ -10,13 +10,10 @@ trigger OpportunityTrg on Opportunity (after insert) {
         // I added new things one more time here.
         // That's it. Now!
         // Again I'm adding 6, 7, 8 and you can see after 5
-        // 1
-        // 2
-        // 3
-        // 4
-        // 5
-        // 6
         // 7
         // 8
+        // This is a new line 9
+        // This is a new line 10
+        // This is a new line 11
     }
 }
