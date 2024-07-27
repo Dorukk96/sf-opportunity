@@ -8,7 +8,8 @@ trigger OpportunityTrg on Opportunity (after insert) {
         // I add new things
         // I add new things again
         // I added new things one more time here.
-        // That's it. Now!!
+        // That's it. Now!!!!!!
+        // 0
         // 1
         // 2
         // 3
