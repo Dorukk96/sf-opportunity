@@ -5,15 +5,21 @@ trigger OpportunityTrg on Opportunity (after insert) {
     if (Trigger.isInsert && Trigger.isAfter) {
         OpportunityTriggerHandler.updateOppPriority(Trigger.new);
         // New things added here
-        // I add new things
-        // I add new things again
-        // I added new things one more time here.
-        // That's it. Now!
-        // Again I'm adding 6, 7, 8 and you can see after 5
-        // 7
-        // 8
-        // This is a new line 9
-        // This is a new line 10
-        // This branch is replica branch
+        // Hello new branch - 1
+        // Hello new branch - 2
+        // Hello new branch - 3
+        // Hello new branch - 4
+        // Hello new branch - 5
+        // Hello new branch - 6
+        // Hello new branch - 7
+        // Hello new branch - 8
+        // Hello new branch - 9
+        // Hello new branch - 10
+        // Hello new branch - 11
+        // Hello new branch - 12
+        // Hello new branch - 13
+        // Hello new branch - 14
+        // Hello new branch - 15
+        // Hello new branch - 16
     }
 }
