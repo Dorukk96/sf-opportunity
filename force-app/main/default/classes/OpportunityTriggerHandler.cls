@@ -4,6 +4,7 @@ public with sharing class OpportunityTriggerHandler {
     // US: 1551 | CreatedBy: Doruk SITKIBUTUN | CreatedDate: 25/07/2024
     public static void updateOppPriority(List<Opportunity> oppList) {
 
+        // Initialize an empty set which contains all the account IDs.
         Set<Id> accountIds = new Set<Id>();
         
         for (Opportunity eachOpp : oppList) {
