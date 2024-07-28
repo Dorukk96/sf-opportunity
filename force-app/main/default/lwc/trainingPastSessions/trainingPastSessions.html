@@ -1,0 +1,18 @@
+<template>
+    <lightning-card icon-name="custom:custom21" title="Past Training Sessions">
+      <div class="slds-var-m-around_large">
+          <template lwc:if={allPastTrainings}>
+            <template for:each={allPastTrainings} for:item="session">
+                <div key={session.Id}>
+                    {session.Name} | {session.Attendees__c} | {session.SessionDate__c} | {session.Location__c}
+                </div>
+            </template>
+          </template>
+          <template lwc:else>
+            <div class="slds-align_absolute-center">
+                No recent past trainings!!
+            </div>
+          </template>
+      </div>
+    </lightning-card>
+</template>
