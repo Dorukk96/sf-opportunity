@@ -1,0 +1,21 @@
+<template>
+    <lightning-card icon-name="custom:custom9" title="TRACK PROPERTY">
+      <div class="slds-var-m-around_large">
+        
+        <lightning-input 
+          type="text"
+          label="Enter your city"
+          value={location.city}
+          onchange={cityHandler}
+        ></lightning-input>
+       
+        <div class="slds-var-m-around_large">
+            <template lwc:if={location.city}>
+                Hello there! I belong to {location.city} City,
+                Your city : {location.city}
+            </template>
+        </div>
+
+      </div>
+    </lightning-card>
+</template>
