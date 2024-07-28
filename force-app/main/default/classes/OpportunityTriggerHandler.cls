@@ -7,6 +7,7 @@ public with sharing class OpportunityTriggerHandler {
         // Initialize an empty set which contains all the account IDs.
         Set<Id> accountIds = new Set<Id>();
         
+        // In each iteration, account ID of each opp record will be added to the empty set.
         for (Opportunity eachOpp : oppList) {
             accountIds.add(eachOpp.AccountId);
         }
